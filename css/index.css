@@ -1,0 +1,584 @@
+ /* Here is my global selector, i also remove underline and bullet */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+/* global selector ends here */
+
+/* Here is my website menu converted to flexbox */
+
+.header{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+/* here is my logo */
+.logo img{
+    margin: 20px 20px;
+    cursor: pointer;
+}
+/* my logo ends here */
+/* here is my header ends */
+
+/* here is my frst-container */
+.first-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/pexels-hasan-albari-1229861.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* first-container ends here */
+/* here is my ul li menu a */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
+ul li{
+    display: inline-block;
+    margin-top: 20px;
+    /* padding: 15px; */
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 20px;
+}
+
+li a{
+    color: aliceblue;
+    font-weight: bolder;
+    
+    
+}
+ul{
+    margin-right: 50px;
+}
+.btn-btn{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+ .btn-btn:hover{
+    border: 2px solid rgb(252, 251, 251);
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+/* ul li menu ends */
+
+/* my first container text */
+.first-container-text{ color: white;
+    text-align: center;
+    margin-top: 150px;
+    width: 100%;
+}
+.first-container-text h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: rgb(247, 247, 6);
+}
+.first-container p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.btn{
+    border: 3px solid white;
+    width: 15%;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+
+.btn:hover{
+    background-color: rgb(252, 252, 252);
+    color: rgb(246, 4, 4);
+}
+/* hide menu bar & xmark icon */
+
+#show-menu, #close-menu{display: none;}
+
+/* first container ends here */
+
+
+
+/* 
+second section begins here */
+
+
+.courses{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.courses h2{
+    text-transform: uppercase;
+    color: rgb(250, 10, 10);
+    margin-top: 20px;
+    font-size: 40px;
+}
+.courses p{
+    font-size: 20px;
+}
+.row{display: flex;
+    width: 80%;
+    margin-left: 130px;
+    
+
+
+}
+.col{
+    background-color: rgb(17, 0, 0);
+    color: white;
+    margin-left: 25px;
+    padding: 10px 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 8px 0px 8px 0px rgb(236, 167, 231);
+    
+     
+    
+}
+.col:hover{
+    box-shadow: 0px 10px 10px 0px rgb(236, 80, 226);
+    
+
+}
+.col h3{
+    font-size: 25px;
+    margin: 15px;
+    color: rgb(248, 1, 137);
+}
+/* second section ends here */
+/* 
+third section starts here*/
+.third-section{
+    width: 100%;
+    background-image:linear-gradient( rgba(19, 17, 17, 0.541), rgba(3, 0, 0, 0.884)), url(../images/pexels-toni-cuenca-585752.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.trianing p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.trianing h1{
+    color: rgb(253, 7, 220);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.trianing{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+ .col1{
+    margin: 20px;
+    position: relative;
+    
+}
+.title{
+    position: absolute;
+    color: rgb(252, 250, 250);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.title:hover{
+    background-color: rgba(177, 117, 6, 0.849);
+}
+.title h2{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    opacity: 0;
+}
+.title:hover h2{
+    opacity: 1;
+    top: 40%;
+    transition: 2s;
+}
+/* third section end here */
+
+/* fourth section begins here */
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.fourth-section img{margin-right: 40px;
+    width: 60%;
+    padding: 20px;
+
+}
+.text{
+
+}
+.text h1{
+    font-size: 50px;
+    margin-top: 40px;
+
+}
+.text p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+button{
+    background-color: blue;
+    width: 40%;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+button:hover{
+    background: white;
+    border: solid 2px blue;
+    color: blue;
+}
+/* fourth section ends here */
+
+/* fifth container begins here */
+.fifth-container{
+    background-color: rgb(227, 232, 236);
+    /* width: 90%; */
+}
+
+.students{
+    text-align: center;
+}
+.students h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.students p{
+    font-size: 20px;
+   padding: 10px;
+}
+.student-list{
+    display: flex;
+    justify-content: center;
+
+}
+.photo{
+    margin: 20px;
+}
+.photo img{
+    border-radius: 10px;
+}
+.photo h1{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+/* fifth section ends here */
+
+/* <!-- This section 6 with graphics design begins --> */
+.text{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+h5{
+    font-size: 40px;
+   padding-top: 20px;
+    font-weight: bold;
+    
+}
+
+.flex{
+    display: flex;
+    padding: 0px 120px;
+}
+
+h6{
+    text-align: center;
+    font-size: 25px;
+}
+.studentp{
+    text-align: center;
+    margin-top: 20px;
+}
+.column{
+    margin: 20px;
+}
+
+
+/* <!-- This section 6 with graphics design ends --> */
+
+
+/* footer begin here */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+   
+    
+}
+.pages p { 
+    padding: 5px;
+}
+.pages h3{
+    color: yellow;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.about h1{
+    color: yellow;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.about{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.contact h1{color: yellow;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 20px;
+    
+
+}
+.contact{margin-right: 20px;}
+
+.contact p{
+    padding: 5px;
+}
+
+/* footer ends here */
+
+
+/* here is my mobile responsiveness */
+
+
+@media(max-width: 600px) {
+    /* first contianer */
+    .header{
+        flex-direction: column;
+        
+         } 
+         ul{background-color: red;
+          height:100vh;
+          position: absolute;
+          top: 0;
+          right: o;
+          margin-left: 370px;
+          z-index: 2;
+          display: none;
+      
+         }
+
+         .fa-xmark{
+          font-size: 30px;
+          color: white;
+          position: absolute;
+          top: 0;
+          cursor: pointer;
+      
+         }
+         .fa-bars{color: white;
+          position: absolute;
+          right: 10px;
+          top: 30px;
+          cursor: pointer;
+      
+      
+         }
+
+         #show-menu, #close-menu{display: block;}
+         ul li{ display: block;
+          padding: 15px;
+          text-align: center;
+            
+         }
+      
+         .first-container-text{
+         width: 100%;
+         position: absolute;
+         bottom: 30%;
+         
+      
+         }
+         .first-container-text h1{
+          font-size: 35px;
+         }
+         .first-container-text p{
+          font-size: 15px;
+         }
+      .btn{
+          width: 30%;
+      }
+      
+        
+      
+         /* register button */
+         .btn-btn {
+          border: 3px solid white;
+          
+          
+         }
+
+         /* first container ends */
+
+         /* second container starts here */
+
+         .row{
+            flex-direction: column;
+            width: 90%;
+            position: absolute;
+            right: 10%;
+            
+         
+            
+         }
+         
+         .courses h2{
+            font-size: 25px;
+            
+         }
+         .courses p{
+            font-size: 15px;
+            width: 70%;
+            margin-left: 15%;
+
+         }
+         .col h3{
+            font-size: 20px;
+         }
+         /* second container ends here */
+
+         /* third container starts here */
+
+         .third-section{
+            margin-top: 600px;
+            width: 100%;
+            height: 100%;
+         }
+         .trianing p{font-size: 15px;}
+         .trianing h1{
+            font-size: 25px;
+         }
+         .picture{
+            flex-direction: column;
+            margin-left: 75px;
+            margin-top: 5px;
+
+            /* third section ends here */
+
+            /* fourth section starts here */
+           
+         }
+         .fourth-section{
+            flex-direction: column;
+           
+         }
+         .fourth-section img{
+            width: 80%;
+            margin-left: 50px;
+         }
+         .text{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10px;
+            
+         }
+         .text h1{
+            font-size: 30px;
+         }
+         .text p{
+            font-size: 15px;
+         }
+         button{
+            width: 20%;
+            padding: 5px 5px;
+         }
+
+         /* fourth section ends here */
+           
+            
+    /* fifth container begin here      */
+   
+    .student-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .students h1{
+        font-size: 25px;
+    }
+    .students p{
+    font-size: 15px;
+    }
+    /* fifth container ends here */
+
+    /* sixth container starts here */
+   
+    h5{
+        font-size: 30px;
+       padding-top: 20px;
+        font-weight: bold;
+        
+    }
+    .studentp{
+        font-size: 15px;
+    }
+
+    .flex{
+        flex-direction: column;
+         align-items: center;
+    }
+
+    /* sixth container ends here */
+
+
+    /* footer starts here */
+    footer{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .pages{padding-right: 180px;
+        margin-bottom: 30px;
+    }
+    .contact{padding-right:50px ;
+    }
+
+    /* footer ends end here */
+
+
+}
